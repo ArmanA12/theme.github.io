@@ -1,0 +1,108 @@
+body{
+    background-color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+
+}
+.nav{
+    width: 100%;
+    height: 65px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-bottom: 1px solid aliceblue;
+}
+.nav button{
+    position: relative;
+    left: 800px;
+    width: 100px;
+    height: 30px;
+    top: 12px;
+    margin-left: 20px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+#dark{
+    background: black;
+    color: aliceblue;
+    border-radius: 2px;
+}
+.nav p{
+    position: absolute;
+    left: 20px;
+    font-size: 27px;
+    top: -16px;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px rgb(142, 144, 142);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.container{
+    display: flex;
+    width: 300px;
+    height: 260px;
+    position: relative;
+    flex-direction: column;
+    left: 20%;
+    top: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: 1px solid aliceblue;
+}
+.container label{
+    margin-top: 8px;
+}
+.container input{
+    margin-top: 8px;
+}
+.container button{
+    position: relative;
+    margin-top: 20px;
+    width: 100px;
+    left: 33%;
+    background-image: linear-gradient(to right, rgb(29, 37, 112) ,rgb(25, 90, 110));
+    border: none;
+    height: 30px;
+    color: wheat;
+    border-radius: 4px;
+}
+.container p{
+    position: relative;
+    font-size: 18px;
+    left: 37%;
+    font-weight: 1000;
+}
+button:hover{
+    background: rgb(253, 251, 251);
+    color: rgb(5, 5, 5);
+    border: 1px solid black;
+}
+#change{
+    position: relative;
+    left: 28%;
+    top: 60px;
+    width: 125px;
+    height: 30px;
+    background:black;
+    color: beige;
+    border-radius: 3px;
+    border: 1px solid wheat;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+    border: 1px solid rgb(127, 125, 125);
+    position: relative;
+    left: 55%;
+    top: -200px;
+    padding-left: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+    border-radius: 6px;
+}
+.main button{
+    position: absolute;
+    top: 60px;
+    height: 30px;
+}
+
